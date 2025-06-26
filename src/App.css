@@ -1,0 +1,38 @@
+#root {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .title {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .appartements {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
+
+
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto; /* centre horizontalement */
+  padding: 0 20px; /* espace intérieur à gauche/droite */
+}
