@@ -4,14 +4,6 @@
 }
 
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 @media (max-width: 768px) {
   .grid {
@@ -33,5 +25,13 @@
 .app-container {
   max-width: 1280px;
   margin: 0 auto; /* centre horizontalement */
-  padding: 0 20px; /* espace intérieur à gauche/droite */
+  padding: 0 ; /* espace intérieur à gauche/droite */
+}
+
+
+@media (max-width: 1350px) {
+  .app-container {
+      padding: 0 20px;
+  }
+
 }
