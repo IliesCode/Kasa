@@ -1,5 +1,5 @@
 import React from "react";
-import "./Headpicture.css";
+import "./Headpicture.scss";
 import HeadPic from "../src/assets/HeadPic.jpg";
 
 function Head() {

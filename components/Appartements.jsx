@@ -1,5 +1,5 @@
 import react from "react";
-import "./Appartements.css"
+import "./Appartements.scss"
 
 
 function Appartements() {

@@ -1,5 +1,5 @@
 import react from "react";
-import "./Main.css"
+import "./Main.scss"
 import ListeAppartements from "./ListeAppartements";
 
 

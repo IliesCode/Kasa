@@ -1,19 +1,26 @@
 import { useState } from 'react'
-import Navbar from '../components/Navbar'
-import Headpicture from "../components/Headpicture"
-import Main from '../components/Main'
-import Footer from '../components/Footer'
-import "./Home.css"
-
-
+import "../componentsPageAppart/Host"
+import "./Appartements.scss"
+import Host from '../componentsPageAppart/Host'
+import InfosAppartement from '../componentsPageAppart/InfosAppartement'
+import Caroussel from '../componentsPageAppart/Caroussel'
+import DescriptionEquipements from '../componentsPageAppart/DescriptionEquipements'
 
 function Appartements() {
   const [count, setCount] = useState(0)
 
   return (    
-      <div className='app-container'>
-azzeeeererrrr
+     <div>
+      <Caroussel />
+      <div className='infosHote'>
+      <InfosAppartement/>
+      <Host />
       </div>
+
+      <DescriptionEquipements />
+
+      </div>
+
   )
 }
 

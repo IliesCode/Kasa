@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import "./Apropos.css"
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 
 
 function Apropos() {
