@@ -40,3 +40,33 @@ margin-bottom: 10px;
 }
 
 }
+
+
+
+
+@media (max-width: 768px ){
+    
+.hote {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: center;
+}
+
+    .material-icons-round{
+        font-size: 20px;
+    }
+
+
+    .nomPhoto {
+        width: 100%;   
+        
+        .nom {
+        width: 80%;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    }
+
+}

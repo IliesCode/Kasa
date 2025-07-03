@@ -4,3 +4,11 @@
     align-items: center;
 }
 
+@media (max-width: 768px ){
+    
+    .infosHote{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

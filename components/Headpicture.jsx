@@ -1,14 +1,14 @@
 import React from "react";
 import "./Headpicture.scss";
-import HeadPic from "../src/assets/HeadPic.jpg";
 
-function Head() {
+function Headpicture({ image, title, extraClass = "headHeight" }) {
   return (
     <div className="head">
-        <div className="headPic" style={{ backgroundImage: `url(${HeadPic})` }}><h2 className="title">Chez vous, partout et ailleurs</h2></div>
-        
+      <div className={`headPic ${extraClass}`} style={{ backgroundImage: `url(${image})` }}>
+        {title && <h2 className="title">{title}</h2>}
+      </div>
     </div>
   );
 }
 
-export default Head;
+export default Headpicture;

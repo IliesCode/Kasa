@@ -1,6 +1,15 @@
 .descriEqui{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .style {
@@ -58,3 +67,26 @@
     }
 }
 
+
+@media (max-width: 768px ){
+
+    .descriEqui{
+        display: flex;
+        flex-direction: column;
+        
+
+        .style {
+            width: 100%;
+            
+            .text {
+                font-size: 12px;
+            }
+            .description p{
+                font-size: 13px;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+            }
+        }
+    }
+}
