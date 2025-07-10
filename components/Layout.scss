@@ -9,3 +9,12 @@
 .main {
 flex: 1;
 }
+
+
+@media (max-width:1350px) {
+  .main{
+    .app-container {
+      padding: 0;
+    }
+  }
+}
