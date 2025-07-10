@@ -1,0 +1,12 @@
+/* scss dans apropos*/
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.arrow-icon.rotate {
+  transform: rotate(180deg);
+}

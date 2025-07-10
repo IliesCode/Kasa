@@ -5,7 +5,7 @@ import "./Appartements.scss"
 function Appartements() {
 return(
 <div className="appartements">
-    <div className="text"><p>Titre de la location</p></div>
+    <div><p className="textP">Titre de la location</p></div>
 </div>
 )
 }

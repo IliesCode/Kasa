@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import { Routes, Route } from 'react-router-dom';
 import Appartements from '../pages/Appartements.jsx';
 import Apropos from '../pages/Apropos.jsx';
-
+import Error404 from '../pages/Error404.jsx';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/infos" element={<Apropos />} />
         <Route path='/appartements' element={<Appartements />}/>
+        <Route path='*' element={<Error404 />} />
       </Routes>
     </Layout>
   )
@@ -25,15 +26,3 @@ function App() {
 export default App
 
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<App />} />
-//         <Route path="/appartements" element={<div>Test</div>} />
-//         <Route path="/APropos" element={<div>infos</div>} />
-//         <Route path="/Erreur" element={<div>404</div>} />
-//       </Routes>
-//     </BrowserRouter>
-//   </StrictMode>
-// );

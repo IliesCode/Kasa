@@ -7,7 +7,7 @@ function Layout({ children }) {
     <div className="norm">
         <div className="app-container">
             <Navbar />
-            <main>{children}</main>
+            <main className="main">{children}</main>
         </div>
         <Footer />
     </div>
